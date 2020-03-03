@@ -1,0 +1,16 @@
+plugin:
+  name: easydb-orcid-plugin
+  version: 1.0
+  url: https://github.com/programmfabrik/orcid
+  displayname:
+    de-DE: Orcid
+    en-US: Orcid
+  info:
+    de-DE: Orcid
+    en-US: Orcid
+  server:
+    api-version:
+      require: 1
+  webfrontend:
+    url: easydb-orcid-plugin.js
+    l10n: l10n/
