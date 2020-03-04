@@ -1,5 +1,5 @@
 key,de-DE,en-US,it-IT,es-ES
-orcid.pool.plugin.tab-text,ORCID,ORCID,ORCID,ORCID
-orcid.pool.plugin.form.label,ORCID,ORCID,ORCID,ORCID
-orcid.pool.plugin.form.hint.md,https://orcid.org/,https://orcid.org/,https://orcid.org/,https://orcid.org/
-orcid.pool.plugin.info-row,Orcid,Orcid,Orcid,Orcid
+orcid.user.plugin.tab-text,ORCID,ORCID,ORCID,ORCID
+orcid.user.plugin.form.label,ORCID,ORCID,ORCID,ORCID
+orcid.user.plugin.form.hint.md,https://orcid.org/,https://orcid.org/,https://orcid.org/,https://orcid.org/
+orcid.user.plugin.info-row,Orcid,Orcid,Orcid,Orcid

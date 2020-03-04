@@ -15,7 +15,7 @@ INSTALL_FILES = \
 	$(JS) \
 	easydb-orcid-plugin.config.yml
 
-COFFEE_FILES = src/webfrontend/OrcidPoolPlugin.coffee
+COFFEE_FILES = src/webfrontend/OrcidUserPlugin.coffee
 
 all: build
 
