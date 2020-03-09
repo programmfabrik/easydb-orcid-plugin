@@ -14,10 +14,10 @@ class ez5.OrcidUserPlugin extends ez5.UserPlugin
 					element: =>
 						orcid = @_user.data.user.custom_data.orcid
 						if CUI.util.isEmpty(orcid)
-							return new CUI.Label(text: $$("orcid.user.plugin.form.url.empty"), markdown: true)
+							return new CUI.Label(text: $$("orcid.user.plugin.form.url.empty.md"), markdown: true)
 						if not ez5.OrcidUserPlugin.REGEX_ID.test(orcid)
-							return new CUI.Label(text: $$("orcid.user.plugin.form.url.not-valid"), markdown: true)
-						return new CUI.Label(text: $$("orcid.user.plugin.form.url.link", url: ez5.OrcidUserPlugin.URL + orcid), markdown: true)
+							return new CUI.Label(text: $$("orcid.user.plugin.form.url.not-valid.md"), markdown: true)
+						return new CUI.Label(text: $$("orcid.user.plugin.form.url.link.md", url: ez5.OrcidUserPlugin.URL + orcid), markdown: true)
 
 				form = new CUI.Form
 					data: @_user.data.user
