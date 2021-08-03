@@ -12,7 +12,7 @@ INSTALL_FILES = \
 	$(WEB)/l10n/es-ES.json \
 	$(WEB)/l10n/it-IT.json \
 	$(JS) \
-	easydb-orcid-plugin.config.yml
+	manifest.yml
 
 COFFEE_FILES = src/webfrontend/OrcidUserPlugin.coffee
 
